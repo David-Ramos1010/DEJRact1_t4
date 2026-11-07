@@ -5,7 +5,9 @@
 ***
 ### Preguntas de la fase tres:
 ##### a) ¿Qué es un @Controller o @RestController en Spring Boot, y qué diferencia hay entre ambos?
-El @Controller le indica al sistema que es una clase de tipo controlador. Un controlador se define usando algo que se conoce como anotaciones también va a manejar las rutas mediante algo llamado request mapping que es el método con que el controlador va a manejar esas solicitudes entonces recibe los datos de las solicitudes http y lo hace capturando los datos desde una URL que sería el cuerpo de esa solicitud y luego le devuelve una respuesta al elemento que hace la solicitud y esta respuesta que manda ese controlador puede ser un archivo eh de tipo json o xml o tratándose de página web html eso va  depender de los requisitos de eh Y la configuración que hagamos.
+El @Controller le indica al sistema que es una clase de tipo controlador. Un controlador se define usando algo que se conoce como anotaciones también va a manejar las rutas mediante algo llamado request mapping que es el método con que el controlador va a manejar esas solicitudes entonces recibe los datos de las solicitudes http y lo hace capturando los datos desde una URL que sería el cuerpo de esa solicitud y luego le devuelve una respuesta al elemento que hace la solicitud y esta respuesta que manda ese controlador puede ser un archivo de tipo json o xml o tratándose de página web html eso va  depender de los requisitos de eh Y la configuración que hagamos.
+
+Un @RestController es una anotación que se utiliza para definir un controlador que maneja solicitudes http y que produce respuestas directamente pero en formato JSON o XML.
 
 Ejemplo del video:
 
@@ -35,5 +37,6 @@ Ejemplo:
 
 ### Imagenes:
 ![primera captura](img/imagen1.png)
+![segunda captura](img/imagen2.png)
 #### Proyecto subido al local 
 #### Elaborado por: David Efraín José Ramos NL 19
