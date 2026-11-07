@@ -42,7 +42,12 @@ En mi puerto use el 8081 y lo tuve que definir manualmente desde 'aplication.pro
 ##### d) Pega el enlace de tu repositorio de GitHub, y el link de tu proyecto ya corriendo en el VPS.
 
 Link de repositorio: https://github.com/David-Ramos1010/DEJRact1_t4
-Link del VPS:
+
+Links del VPS:
+http://194.163.143.215:8081/detalles_info2
+http://194.163.143.215:8081/datos
+http://194.163.143.215:8081/materias
+http://194.163.143.215:8081/saludo
 
 ### Imagenes:
 ![primera captura](img/imagen1.png)
