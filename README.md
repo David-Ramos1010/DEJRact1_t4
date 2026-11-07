@@ -15,6 +15,10 @@ Ejemplo del video:
     import org.springframework.stereotype.Controller;
     @Controller
 ```
+```java
+import org.springframework.web.bind.annotation.RestController;
+@RestController //método handler REST
+```
 
 ##### b) ¿Qué anotación se usa para mapear una petición GET a un método, y cómo se le indica la ruta (endpoint)?
 Para mapear una petición GET a un método se utiliza la anotación "@GetMapping" y para indicar la ruta (endpoint) se especifica la URL deseada entre comillas dentro de los paréntesis de la anotación.
@@ -33,10 +37,24 @@ Ejemplo:
 ```java 
     server.port = 8080
 ```
+En mi puerto use el 8081 y lo tuve que definir manualmente desde 'aplication.properties' porque mi compañero usara el 8082, ya que el 8080 suele usarse por defecto en pruebas locales.
+
 ##### d) Pega el enlace de tu repositorio de GitHub, y el link de tu proyecto ya corriendo en el VPS.
+
+Link de repositorio: https://github.com/David-Ramos1010/DEJRact1_t4
+Link del VPS:
 
 ### Imagenes:
 ![primera captura](img/imagen1.png)
+***
 ![segunda captura](img/imagen2.png)
-#### Proyecto subido al local 
+***
+#### /detalles_info2
+![detalles_info2](img/captura1.png)
+#### /datos
+![datos](img/captura2.png)
+#### /materias
+![materias](img/captura3.png)
+#### /saludo
+![saludo](img/captura4.png)
 #### Elaborado por: David Efraín José Ramos NL 19
